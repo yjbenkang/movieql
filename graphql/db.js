@@ -20,10 +20,14 @@ let movies = [
       score: 2
     }
   ];
-  
+
   export const getMovies = () => movies;
 
   export const getById = id => {
     const filteredMovies = movies.filter(movie => movie.id === String(id));
     return filteredMovies[0];
+  };
+
+  export const addMovie = () => {
+    //will write
   };
