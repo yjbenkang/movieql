@@ -6,11 +6,6 @@
   "repository": "https://github.com/yjbenkang/movieql",
   "author": "yjbenkang<kyongjin1234@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "axios": "^0.21.1",
-    "graphql-yoga": "^1.18.3",
-    "node-fetch": "^3.0.0"
-  },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
   },
@@ -20,5 +15,10 @@
     "@babel/node": "^7.14.9",
     "@babel/preset-env": "^7.15.0",
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^3.0.0"
   }
 }
