@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Movie API with graphql",
   "main": "index.js",
+  "type:": "module",
   "repository": "https://github.com/yjbenkang/movieql",
   "author": "yjbenkang<kyongjin1234@gmail.com>",
   "license": "MIT",
@@ -19,6 +20,6 @@
   "dependencies": {
     "axios": "^0.21.1",
     "graphql-yoga": "^1.18.3",
-    "node-fetch": "^3.0.0"
+    "node-fetch": "2.6.1"
   }
 }
